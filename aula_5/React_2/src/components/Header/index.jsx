@@ -8,15 +8,15 @@ function Header() {
                 <span>Icone</span>
                 <nav>
                     <a href=''>Barra de Busca</a>
-                    <a href=''>Link Cadastre-se</a>
+                    <Link to='/login'>Link Cadastre-se</Link>
                     <a href=''>Botão</a>
-                    <a href=''>Entrar</a>
+                    <Link to='/login'>Entrar</Link>
                 </nav>
             </div>
             <div className={styles.headerBottom}>
                 <nav>
                     <Link to='/home'>Home</Link>
-                    <Link to='/home'>Produtos</Link>
+                    <Link to='/produtos'>Produtos</Link>
                     <Link to='/home'>Categorias</Link>
                     <Link to='/home'>Meus pedidos</Link>
                     <Link to='/login'>Login</Link>

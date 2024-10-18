@@ -10,6 +10,8 @@ function ListaDeTenis() {
             const imagemTenis = await resposta.json()
 
             setTenis(imagemTenis)
+
+
         }
         carregarTenis()
     }, []);
