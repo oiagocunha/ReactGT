@@ -7,10 +7,7 @@ function BotaoDinamico (props) {
         border: 'none',
         borderRadius: '15px',
         cursos: 'pointer',
-        fontSize: '16px',
-        display: 'flex',
-        width: '1480px',
-        height: '50px'
+        fontSize: '16px'
     }
 
     return <button style={estiloBotao} >

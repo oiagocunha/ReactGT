@@ -4,13 +4,13 @@ const Login = () => {
     return(
         <div>
             <h1>
-                Home Page
+                Seja bem vindo!
             </h1>
             <p>
-                Bem Vindo!
+                Entre ou Cadastre-se agora no nosso site!
             </p>
-            <BotaoDinamico cor='green'>Entrar</BotaoDinamico>
-            <BotaoDinamico cor='blue'>Logar</BotaoDinamico>
+            <BotaoDinamico cor='green' fundo='white' >Entrar</BotaoDinamico>
+            <BotaoDinamico cor='blue' fundo='white' >Cadastrar</BotaoDinamico>
         </div>
     )
 }

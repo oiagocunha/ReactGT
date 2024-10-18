@@ -1,11 +1,11 @@
 import styles from './Header.module.css'
-import {link} from 'react-router-dom'
+import {Link} from 'react-router-dom'
 
 function Header() {
     return (
         <header className={styles.header}>
             <div className={styles.headerTop}>
-                <span>Loja</span>
+                <span>Icone</span>
                 <nav>
                     <a href=''>Barra de Busca</a>
                     <a href=''>Link Cadastre-se</a>
@@ -15,10 +15,12 @@ function Header() {
             </div>
             <div className={styles.headerBottom}>
                 <nav>
-                    <a href=''>Home</a>
-                    <a href=''>Produtos</a>
-                    <a href=''>Categorias</a>
-                    <a href=''>Meus pedidos</a>
+                    <Link to='/home'>Home</Link>
+                    <Link to='/home'>Produtos</Link>
+                    <Link to='/home'>Categorias</Link>
+                    <Link to='/home'>Meus pedidos</Link>
+                    <Link to='/login'>Login</Link>
+                    <Link to='/login'>Criar Conta</Link>
                 </nav>
             </div>
         </header >
